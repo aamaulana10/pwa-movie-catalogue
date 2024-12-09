@@ -1,4 +1,4 @@
-import { createMovieItemTemplate } from '../../../templates/template-creator';
+import { createMovieItemTemplate } from '../templates/template-creator';
 import TheMovieDbSource from '../../data/themoviedb-source';
 
 const Upcoming = {
