@@ -24,8 +24,8 @@ const Detail = {
         id: movie.id,
         title: movie.title,
         overview: movie.overview,
-        backdrop_path: movie.backdrop_path,
-        vote_average: movie.vote_average,
+        backdropPath: movie.backdrop_path,
+        voteAverage: movie.vote_average,
       },
     });
   },

@@ -13,7 +13,7 @@ const createMovieDetailTemplate = (movie) => `
     <h4>Duration</h4>
     <p>${movie.runtime} minutes</p>
     <h4>Rating</h4>
-    <p>${movie.vote_average}</p>
+    <p>${movie.voteAverage}</p>
   </div>
   <div class="movie__overview">
     <h3>Overview</h3>
@@ -25,9 +25,9 @@ const createMovieItemTemplate = (movie) => `
   <div class="movie-item">
     <div class="movie-item__header">
       <img class="movie-item__header__poster" alt="${movie.title}"
-           src="${movie.backdrop_path ? CONFIG.BASE_IMAGE_URL + movie.backdrop_path : 'https://picsum.photos/id/666/800/450?grayscale'}">
+           src="${movie.backdropPath ? CONFIG.BASE_IMAGE_URL + movie.backdropPath : 'https://picsum.photos/id/666/800/450?grayscale'}">
       <div class="movie-item__header__rating">
-        <p>⭐️<span class="movie-item__header__rating__score">${movie.vote_average}</span></p>
+        <p>⭐️<span class="movie-item__header__rating__score">${movie.voteAverage}</span></p>
       </div>
     </div>
     <div class="movie-item__content">
