@@ -1,7 +1,7 @@
 /* eslint-disable no-unused-vars */
 import { beforeEach, describe, expect, it, jest } from '@jest/globals';
-import FavoriteMovieSearchPresenter from '../src/scripts/views/pages/liked-movies/favorite-movie-search-presenter';
-import FavoriteMovieView from '../src/scripts/views/pages/liked-movies/favorite-movie-view';
+import FavoriteMovieView from '../src/scripts/views/pages/liked-movie/favorite-movie-view';
+import FavoriteMovieSearchPresenter from '../src/scripts/views/pages/liked-movie/favorite-movie-search-presenter';
 
 describe('Searching movies', () => {
   let presenter;

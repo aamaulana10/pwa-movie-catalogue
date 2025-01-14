@@ -1,7 +1,7 @@
 /* eslint-disable camelcase */
 import { beforeEach, describe, expect, it, jest } from '@jest/globals';
-import FavoriteMovieShowPresenter from '../src/scripts/views/pages/liked-movies/favorite-movie-show-presenter';
-import FavoriteMovieView from '../src/scripts/views/pages/liked-movies/favorite-movie-view';
+import FavoriteMovieView from '../src/scripts/views/pages/liked-movie/favorite-movie-view';
+import FavoriteMovieShowPresenter from '../src/scripts/views/pages/liked-movie/favorite-movie-show-presenter';
 
 describe('Showing all favorite movies', () => {
   let view;
